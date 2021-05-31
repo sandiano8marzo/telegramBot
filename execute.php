@@ -55,6 +55,10 @@
 			$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
 		
+		if($text == "ciao"){
+			$text = "Benvenuto sul BOt dell' IIS 8 MARZO";
+			$parameters = array('chat_id' => $chatId, "text" => $text);
+		}
 		
 		//aggiungo il comando di invio
 		//e lo invio
