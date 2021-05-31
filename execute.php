@@ -59,6 +59,13 @@
 			$text = "Benvenuto sul BOt dell' IIS 8 MARZO";
 			$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
+
+		if($text == "foto" || $text =="/foto"){
+			sendFoto($chatId, "foto1.jpg", false, "La ia foto", $api)	
+		}
+
+
+		
 		
 		//aggiungo il comando di invio
 		//e lo invio
